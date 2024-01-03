@@ -3,6 +3,9 @@
   "displayName": "KlongPy",
   "description": "KlongPy Language",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briangu/klongpy-vscode.git"},
   "engines": {
     "vscode": "^1.85.0"
   },
