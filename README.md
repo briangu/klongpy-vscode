@@ -2,6 +2,10 @@
 
 This is the README for the "klongpy" extension, providing syntax highlighting for the KlongPy programming language.
 
+## Sample Highlighting
+
+![Sample](images/preview.png)
+
 ## Features
 
 This extension offers syntax highlighting for KlongPy, making it easier to write and understand KlongPy code. Enjoy clear visual cues for keywords, operators, comments, and more.
