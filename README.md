@@ -1,6 +1,6 @@
-# kg README
+# KlongPy README
 
-This is the README for your extension "kg". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "klongpy". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
