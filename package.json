@@ -1,0 +1,25 @@
+{
+  "name": "klongpy",
+  "displayName": "KlongPy",
+  "description": "KlongPy Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "klongpy",
+      "aliases": ["KlongPy", "klongpy"],
+      "extensions": [".kg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "klongpy",
+      "scopeName": "source.klongpy",
+      "path": "./syntaxes/klongpy.tmLanguage.json"
+    }]
+  }
+}

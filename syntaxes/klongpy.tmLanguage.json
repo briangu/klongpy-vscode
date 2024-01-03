@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "KlongPy",
+    "patterns": [
+        {
+            "name": "comment.line.klongpy",
+            "match": ":\".*\""
+        },
+        {
+            "name": "comment.block.klongpy",
+            "begin": "\\.comment\\(\"([^\"]+)\"\\)",
+            "beginCaptures": {
+                "1": { "name": "string.interpolated.klongpy" }
+            },
+            "end": "\\1",
+            "contentName": "comment.content.klongpy"
+        },
+        {
+            "name": "constant.numeric.integer.klongpy",
+            "match": "-?[0-9]+"
+        },
+        {
+            "name": "constant.numeric.float.klongpy",
+            "match": "-?[0-9]+\\.[0-9]*|-?[0-9]+e[+-]?[0-9]+|-?[0-9]+\\.[0-9]*e[+-]?[0-9]+"
+        },
+        {
+            "name": "constant.character.klongpy",
+            "match": "0c."
+        },
+        {
+            "name": "storage.type.dictionary.klongpy",
+            "match": ":::\\{[^\\}]*\\}"
+        },
+        {
+            "name": "keyword.function.system.klongpy",
+            "match": "\\.[a-zA-Z]+"
+        },
+        {
+            "name": "keyword.operator.klongpy",
+            "match": "[!$%&*+,-\\./;<=>?@\\\\^_|~]|:[!$%&*+,-\\./;<=>?@\\\\^_|~]"
+        },
+        {
+            "name": "keyword.operator.assignment.klongpy",
+            "match": "::"
+        },
+        {
+            "name": "string.quoted.double.klongpy",
+            "match": "\"\".*\"\""
+        },
+        {
+            "name": "variable.other.klongpy",
+            "match": "[a-zA-Z\\.][a-zA-Z0-9\\.]*"
+        }
+    ],
+    "fileTypes": ["kg"],
+	"scopeName": "source.klongpy"
+}
