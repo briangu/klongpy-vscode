@@ -22,7 +22,7 @@ No known issues in the initial release. Please report any bugs or suggestions fo
 
 ## Release Notes
 
-### 0.0.1
+### 0.1.0
 
 Initial release of KlongPy code highlighter.
 
