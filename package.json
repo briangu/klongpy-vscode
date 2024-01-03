@@ -3,11 +3,12 @@
   "displayName": "KlongPy",
   "description": "KlongPy Language",
   "publisher": "KlongPy",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "icon": "images/klongpy_logo.jpg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/briangu/klongpy-vscode.git"},
+    "url": "https://github.com/briangu/klongpy-vscode.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -15,16 +16,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "klongpy",
-      "aliases": ["KlongPy", "klongpy"],
-      "extensions": [".kg"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "klongpy",
-      "scopeName": "source.klongpy",
-      "path": "./syntaxes/klongpy.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "klongpy",
+        "aliases": [
+          "KlongPy",
+          "klongpy"
+        ],
+        "extensions": [
+          ".kg"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "klongpy",
+        "scopeName": "source.klongpy",
+        "path": "./syntaxes/klongpy.tmLanguage.json"
+      }
+    ]
   }
 }
