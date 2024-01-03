@@ -2,6 +2,7 @@
   "name": "klongpy",
   "displayName": "KlongPy",
   "description": "KlongPy Language",
+  "publisher": "KlongPy",
   "version": "0.0.1",
   "repository": {
     "type": "git",
