@@ -26,6 +26,12 @@ No known issues in the initial release. Please report any bugs or suggestions fo
 
 ## Release Notes
 
+### 0.2.0
+
+- Updated package metadata for newer versions of VS Code.
+- Added `extensionKind` to ensure UI-side execution.
+- Converted configuration files to strict JSON.
+
 ### 0.1.0
 
 Initial release of KlongPy code highlighter.

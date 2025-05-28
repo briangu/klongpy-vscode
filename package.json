@@ -10,8 +10,10 @@
     "url": "https://github.com/briangu/klongpy-vscode.git"
   },
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.87.0"
   },
+  "license": "MIT",
+  "extensionKind": ["ui"],
   "categories": [
     "Programming Languages"
   ],
